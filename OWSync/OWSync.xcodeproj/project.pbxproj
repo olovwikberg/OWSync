@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDE78E8819FDAD920017EAE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE78E8719FDAD920017EAE6 /* Foundation.framework */; };
+		DDE78E8D19FDAD920017EAE6 /* OWSync.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DDE78E8C19FDAD920017EAE6 /* OWSync.h */; };
+		DDE78E8F19FDAD920017EAE6 /* OWSync.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE78E8E19FDAD920017EAE6 /* OWSync.m */; };
+		DDE78E9619FDAD920017EAE6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE78E9519FDAD920017EAE6 /* XCTest.framework */; };
+		DDE78E9719FDAD920017EAE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE78E8719FDAD920017EAE6 /* Foundation.framework */; };
+		DDE78E9919FDAD920017EAE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE78E9819FDAD920017EAE6 /* UIKit.framework */; };
+		DDE78E9C19FDAD920017EAE6 /* libOWSync.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE78E8419FDAD920017EAE6 /* libOWSync.a */; };
+		DDE78EA219FDAD920017EAE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DDE78EA019FDAD920017EAE6 /* InfoPlist.strings */; };
+		DDE78EA419FDAD920017EAE6 /* OWSyncTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DDE78EA319FDAD920017EAE6 /* OWSyncTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDE78E9A19FDAD920017EAE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDE78E7C19FDAD920017EAE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDE78E8319FDAD920017EAE6;
+			remoteInfo = OWSync;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DDE78E8219FDAD920017EAE6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				DDE78E8D19FDAD920017EAE6 /* OWSync.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DDE78E8419FDAD920017EAE6 /* libOWSync.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOWSync.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE78E8719FDAD920017EAE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DDE78E8B19FDAD920017EAE6 /* OWSync-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OWSync-Prefix.pch"; sourceTree = "<group>"; };
+		DDE78E8C19FDAD920017EAE6 /* OWSync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OWSync.h; sourceTree = "<group>"; };
+		DDE78E8E19FDAD920017EAE6 /* OWSync.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWSync.m; sourceTree = "<group>"; };
+		DDE78E9419FDAD920017EAE6 /* OWSyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OWSyncTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDE78E9519FDAD920017EAE6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DDE78E9819FDAD920017EAE6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DDE78E9F19FDAD920017EAE6 /* OWSyncTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OWSyncTests-Info.plist"; sourceTree = "<group>"; };
+		DDE78EA119FDAD920017EAE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DDE78EA319FDAD920017EAE6 /* OWSyncTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OWSyncTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDE78E8119FDAD920017EAE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE78E8819FDAD920017EAE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE78E9119FDAD920017EAE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE78E9C19FDAD920017EAE6 /* libOWSync.a in Frameworks */,
+				DDE78E9619FDAD920017EAE6 /* XCTest.framework in Frameworks */,
+				DDE78E9919FDAD920017EAE6 /* UIKit.framework in Frameworks */,
+				DDE78E9719FDAD920017EAE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDE78E7B19FDAD920017EAE6 = {
+			isa = PBXGroup;
+			children = (
+				DDE78E8919FDAD920017EAE6 /* OWSync */,
+				DDE78E9D19FDAD920017EAE6 /* OWSyncTests */,
+				DDE78E8619FDAD920017EAE6 /* Frameworks */,
+				DDE78E8519FDAD920017EAE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDE78E8519FDAD920017EAE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDE78E8419FDAD920017EAE6 /* libOWSync.a */,
+				DDE78E9419FDAD920017EAE6 /* OWSyncTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDE78E8619FDAD920017EAE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDE78E8719FDAD920017EAE6 /* Foundation.framework */,
+				DDE78E9519FDAD920017EAE6 /* XCTest.framework */,
+				DDE78E9819FDAD920017EAE6 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDE78E8919FDAD920017EAE6 /* OWSync */ = {
+			isa = PBXGroup;
+			children = (
+				DDE78E8C19FDAD920017EAE6 /* OWSync.h */,
+				DDE78E8E19FDAD920017EAE6 /* OWSync.m */,
+				DDE78E8A19FDAD920017EAE6 /* Supporting Files */,
+			);
+			path = OWSync;
+			sourceTree = "<group>";
+		};
+		DDE78E8A19FDAD920017EAE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDE78E8B19FDAD920017EAE6 /* OWSync-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DDE78E9D19FDAD920017EAE6 /* OWSyncTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDE78EA319FDAD920017EAE6 /* OWSyncTests.m */,
+				DDE78E9E19FDAD920017EAE6 /* Supporting Files */,
+			);
+			path = OWSyncTests;
+			sourceTree = "<group>";
+		};
+		DDE78E9E19FDAD920017EAE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDE78E9F19FDAD920017EAE6 /* OWSyncTests-Info.plist */,
+				DDE78EA019FDAD920017EAE6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDE78E8319FDAD920017EAE6 /* OWSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE78EA719FDAD920017EAE6 /* Build configuration list for PBXNativeTarget "OWSync" */;
+			buildPhases = (
+				DDE78E8019FDAD920017EAE6 /* Sources */,
+				DDE78E8119FDAD920017EAE6 /* Frameworks */,
+				DDE78E8219FDAD920017EAE6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OWSync;
+			productName = OWSync;
+			productReference = DDE78E8419FDAD920017EAE6 /* libOWSync.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DDE78E9319FDAD920017EAE6 /* OWSyncTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDE78EAA19FDAD920017EAE6 /* Build configuration list for PBXNativeTarget "OWSyncTests" */;
+			buildPhases = (
+				DDE78E9019FDAD920017EAE6 /* Sources */,
+				DDE78E9119FDAD920017EAE6 /* Frameworks */,
+				DDE78E9219FDAD920017EAE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDE78E9B19FDAD920017EAE6 /* PBXTargetDependency */,
+			);
+			name = OWSyncTests;
+			productName = OWSyncTests;
+			productReference = DDE78E9419FDAD920017EAE6 /* OWSyncTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDE78E7C19FDAD920017EAE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Olov Vikberg";
+			};
+			buildConfigurationList = DDE78E7F19FDAD920017EAE6 /* Build configuration list for PBXProject "OWSync" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DDE78E7B19FDAD920017EAE6;
+			productRefGroup = DDE78E8519FDAD920017EAE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDE78E8319FDAD920017EAE6 /* OWSync */,
+				DDE78E9319FDAD920017EAE6 /* OWSyncTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDE78E9219FDAD920017EAE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE78EA219FDAD920017EAE6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDE78E8019FDAD920017EAE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE78E8F19FDAD920017EAE6 /* OWSync.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDE78E9019FDAD920017EAE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDE78EA419FDAD920017EAE6 /* OWSyncTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDE78E9B19FDAD920017EAE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDE78E8319FDAD920017EAE6 /* OWSync */;
+			targetProxy = DDE78E9A19FDAD920017EAE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDE78EA019FDAD920017EAE6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDE78EA119FDAD920017EAE6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDE78EA519FDAD920017EAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDE78EA619FDAD920017EAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDE78EA819FDAD920017EAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/OWSync.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OWSync/OWSync-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DDE78EA919FDAD920017EAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/OWSync.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OWSync/OWSync-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DDE78EAB19FDAD920017EAE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OWSync/OWSync-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OWSyncTests/OWSyncTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DDE78EAC19FDAD920017EAE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OWSync/OWSync-Prefix.pch";
+				INFOPLIST_FILE = "OWSyncTests/OWSyncTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDE78E7F19FDAD920017EAE6 /* Build configuration list for PBXProject "OWSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE78EA519FDAD920017EAE6 /* Debug */,
+				DDE78EA619FDAD920017EAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDE78EA719FDAD920017EAE6 /* Build configuration list for PBXNativeTarget "OWSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE78EA819FDAD920017EAE6 /* Debug */,
+				DDE78EA919FDAD920017EAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DDE78EAA19FDAD920017EAE6 /* Build configuration list for PBXNativeTarget "OWSyncTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDE78EAB19FDAD920017EAE6 /* Debug */,
+				DDE78EAC19FDAD920017EAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDE78E7C19FDAD920017EAE6 /* Project object */;
+}
